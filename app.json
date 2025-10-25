@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "KidCare Companion",
+    "slug": "kidcare-companion",
+    "scheme": "kidcare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "VIBRATE",
+        "SCHEDULE_EXACT_ALARM",
+        "POST_NOTIFICATIONS"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/icon.png"
+    }
+  }
+}
